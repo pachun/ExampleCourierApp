@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/pachun/Courier
-  revision: 6ff6dd2a7ba60449387fe1545ba712cd54e4fff7
+  revision: 076b385ba3d3271a24cef58c5696ec673f34d97f
   specs:
-    motion-courier (0.5.1)
+    motion-courier (0.5.2)
       afmotion (>= 2.1.4)
 
 GEM
@@ -69,5 +69,5 @@ PLATFORMS
 
 DEPENDENCIES
   afmotion
-  motion-courier (~> 0.5.1)!
+  motion-courier (~> 0.5.2)!
   rake
