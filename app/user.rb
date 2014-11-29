@@ -7,8 +7,8 @@ class User < Courier::Base
   property :full_name, String
 
   self.json_to_local = {
-    :id => :id, # don't need this line, because it's an identity mapping
-    :name => :full_name, # need this line, because json key is different
+    :id => :id,
+    :name => :full_name,
   }
   self.collection_path = "users"
   self.individual_path = "users/:id"
